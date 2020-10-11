@@ -7,12 +7,12 @@ verify_ssl = true
 ipython = "*"
 pre-commit = "*"
 black = "==20.8b1"
-pytest-django = "*"
 
 [packages]
 django = "*"
 python-decouple = "*"
 gunicorn = "*"
+pytest-django = "*"
 
 [requires]
 python_version = "3.8"
