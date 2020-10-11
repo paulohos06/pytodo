@@ -15,4 +15,3 @@ install:
 
 script:
   - pipenv run black .
-  - pipenv run pytest
