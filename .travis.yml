@@ -15,7 +15,7 @@ install:
 
 script:
   - pipenv run black .
-  - pipenv run pytest --cov=pytodo
+#  - pipenv run pytest --cov=pytodo
 
 after_success:
   - pipenv run codecov
