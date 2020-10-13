@@ -20,7 +20,7 @@ class Activity(models.Model):
     )
     description = models.TextField(
         "descrição",
-        max_length=100,
+        max_length=4000,
         help_text="Descrição sobre o que deve ser feito na atividade.",
     )
     date_act = models.DateTimeField(
