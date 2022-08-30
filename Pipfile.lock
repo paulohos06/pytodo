@@ -559,12 +559,8 @@
             "version": "==1.25.10"
         },
         "virtualenv": {
-            "hashes": [
-                "sha256:35ecdeb58cfc2147bb0706f7cdef69a8f34f1b81b6d49568174e277932908b8f",
-                "sha256:a5e0d253fe138097c6559c906c528647254f437d1019af9d5a477b09bfa7300f"
-            ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
-            "version": "==20.0.33"
+            "hashes": [],
+            "version": "==20.16.4"
         },
         "wcwidth": {
             "hashes": [
