@@ -4,20 +4,20 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+black = "==23.3.0"
+codecov = "*"
 ipython = "*"
 pre-commit = "*"
-black = "==20.8b1"
-pytest-django = "*"
 pytest-cov = "*"
-codecov = "*"
+pytest-django = "*"
 
 [packages]
-django = "*"
-python-decouple = "*"
-gunicorn = "*"
 dj-database-url = "*"
-psycopg2-binary = "*"
 dj-static = "*"
+django = "*"
+gunicorn = "*"
+psycopg2-binary = "*"
+python-decouple = "*"
 
 [requires]
 python_version = "3.8"
